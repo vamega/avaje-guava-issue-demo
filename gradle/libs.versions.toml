@@ -1,0 +1,10 @@
+[versions]
+guava = "33.4.6-jre"
+avaje-jsonb = "3.6"
+assertj = "4.0.0-M1"
+
+[libraries]
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+avaje-jsonb = { module = "io.avaje:avaje-jsonb", version.ref = "avaje-jsonb"}
+avaje-jsonb-generator = { module = "io.avaje:avaje-jsonb-generator", version.ref = "avaje-jsonb"}
+assertj = {module = "org.assertj:assertj-core", version.ref = "assertj"}
